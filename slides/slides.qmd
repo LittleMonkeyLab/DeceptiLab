@@ -1,0 +1,104 @@
+---
+title: "Deception Research in Psychology"
+format: 
+  revealjs:
+    incremental: true
+    transition: fade
+    chalkboard: false
+    overview: true
+    center: true
+    width: 1280
+    height: 720
+bibliography: ../assets/references.bib
+---
+
+## Deception Research in Psychology
+
+We ask: *Who lies, why, how, with what experience, and how can we detect it?*
+
+---
+
+## Who Lies? Why, To Whom, About What?
+
+- Distribution: most lies by a minority of prolific liars
+- Personality correlates: Machiavellianism, narcissism, psychopathy; agreeableness (−)
+- Contexts: authority vs peers; online vs offline; white lies vs self-serving
+
+::: notes
+Anchor to class discussion: frequency distributions; everyday vs high-stakes.
+:::
+
+---
+
+## How Do People Lie? Channels & Strategies
+
+- Channels: face, body, voice, text
+- Strategies: faking good, faking bad, malingering, charm, feigned friendship
+- Preparation vs spontaneity; leakage vs control
+
+---
+
+## The Experience of Lying & Being Lied To
+
+- Affective: guilt, anxiety, “duper’s delight”
+- Cognitive: load, monitoring, self-presentation
+- Social: trust repair, suspicion spirals
+
+---
+
+## Detecting Deception
+
+- Linguistics: pronouns, negations, specificity, temporal structure
+- Nonverbal: illustrators, adaptors, gaze (weak/variable indicators)
+- Physiology: heart rate, skin conductance; constraints & ethics
+
+---
+
+## Who Is Good at Lying or Detecting?
+
+- Accuracy ~ chance for naïve observers
+- Trained interviewers sometimes better; mixed evidence
+- High Machs/actors/poker players—candidate “good liars”
+
+---
+
+## Experimental Paradigms
+
+- Cheating tasks (dice/coin, matrices)
+- Mock-crime with interviews
+- “Deception Olympics” style tournaments
+
+---
+
+## AI as Judge
+
+- Text models score linguistic cues on transcripts
+- Computer vision for facial dynamics and gaze
+- Caveats: dataset bias, context, ethics, generalization
+
+---
+
+## Case Studies
+
+1. Shalvi et al. (2011) cheating & justification [@Shalvi2011]
+2. DePaulo et al. (1996) everyday lie diaries [@DePaulo1996]
+
+---
+
+## Where Next? Sub-Projects
+
+- Lie diaries (1 week)
+- Mock-crime detection lab
+- Faking friendship micro-interactions
+- AI vs human detectors on transcripts
+- Emotion during deception
+- Personality & deception success
+
+---
+
+## Takeaways
+
+- No single “Pinocchio” cue
+- Combine methods + context
+- Do the science: build and test
+

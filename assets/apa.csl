@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>APA-like (minimal placeholder)</title>
+    <id>http://www.zotero.org/styles/apa-minimal-placeholder</id>
+    <updated>2025-09-28</updated>
+  </info>
+  <citation>
+    <layout prefix="(" suffix=")">
+      <text variable="author"/>
+      <date variable="issued" prefix=", ">
+        <date-part name="year"/>
+      </date>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text variable="title"/>
+      <text value=". "/>
+      <text variable="container-title"/>
+      <text value=", "/>
+      <text variable="volume"/>
+      <text value="(" />
+      <text variable="issue"/>
+      <text value="), "/>
+      <text variable="page"/>
+      <text value=". "/>
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+    </layout>
+  </bibliography>
+</style>

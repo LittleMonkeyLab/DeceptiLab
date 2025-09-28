@@ -1,0 +1,13 @@
+---
+title: "Research Highlights (Selected)"
+---
+
+## Experimental
+
+- **Shalvi et al. (2011)**: Justification and dishonesty in cheating tasks [@Shalvi2011].
+
+## Qualitative / Naturalistic
+
+- **DePaulo et al. (1996)**: Diary study of everyday lies [@DePaulo1996].
+
+> Add more exemplars here (mock-crime datasets, field interviews, archival cases).

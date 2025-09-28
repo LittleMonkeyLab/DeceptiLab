@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Deception Research in Psychology"
+  navbar:
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - href: slides/slides.qmd
+        text: Slides
+      - text: Chapters
+        menu:
+          - href: chapters/key-concepts.qmd
+            text: Key Concepts
+          - href: chapters/why-timely.qmd
+            text: Why It's Timely
+          - href: chapters/research-highlights.qmd
+            text: Research Highlights
+          - href: chapters/detection.qmd
+            text: Detecting Deception
+          - href: chapters/who-lies.qmd
+            text: Who Lies & Why
+          - href: chapters/methods-subprojects.qmd
+            text: Sub-Projects & Methods
+  page-footer:
+    left: "© {year} Deception Lab — Teaching materials."
+    right: "Built with Quarto & RevealJS"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/custom.scss
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
+    link-external-newwindow: true
+    df-print: paged
+  revealjs:
+    theme:
+      - simple
+      - assets/custom.scss
+    slide-number: true
+    hash: true
+    progress: true
+    controls: true
+    code-copy: true
+    footer: "Deception Research in Psychology"
+    fig-align: center
+
+metadata-files:
+  - assets/_meta.yml
+
+execute:
+  freeze: auto

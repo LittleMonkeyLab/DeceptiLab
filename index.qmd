@@ -1,0 +1,26 @@
+---
+title: "Deception Research in Psychology"
+format:
+  html:
+    toc: true
+---
+
+Welcome. This site introduces core ideas and evidence in deception research and provides a durable reference for the course.
+
+::: {.callout-note}
+**How to use this site:** Browse the short slide-deck below for the overview, then dive into the chapter pages for detail, references, and methods.
+:::
+
+## Overview Slides
+
+<iframe src="slides/slides.html" width="100%" height="600" style="border:1px solid #ddd;border-radius:12px;"></iframe>
+
+## Chapters
+
+- [Key Concepts](chapters/key-concepts.qmd)  
+- [Why It's Timely](chapters/why-timely.qmd)  
+- [Research Highlights](chapters/research-highlights.qmd)  
+- [Detecting Deception](chapters/detection.qmd)  
+- [Who Lies & Why](chapters/who-lies.qmd)  
+- [Sub-Projects & Methods](chapters/methods-subprojects.qmd)
+

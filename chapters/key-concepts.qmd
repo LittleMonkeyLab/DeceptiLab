@@ -1,0 +1,22 @@
+---
+title: "Key Concepts"
+---
+
+# Scope
+
+This chapter elaborates the core constructs referenced in the slides and links to primary sources.
+
+## Prolific vs Everyday Liars
+
+- Skewed distribution: a minority accounts for a large share of lies.
+- Measurement approaches (diaries, experience sampling).
+
+## Motives and Audiences
+
+- Prosocial vs self-serving lies; status/power dynamics.
+- Recipients: friends, partners, authority, strangers; online vs offline.
+
+## Strategies and Channels
+
+- Faking good/bad; malingering; charm; feigned friendship.
+- Channels: facial/gestural, vocal/prosodic, linguistic/textual, physiological.
