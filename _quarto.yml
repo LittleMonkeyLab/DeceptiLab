@@ -1,9 +1,13 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  
+bibliography: assets/references.bib
+csl: apa.csl
 
 website:
   title: "Deception Research in Psychology"
+  
   navbar:
     background: primary
     right:
@@ -11,6 +15,7 @@ website:
         text: Home
       - href: slides/slides.qmd
         text: Slides
+        target: _blank
       - text: Chapters
         menu:
           - href: chapters/key-concepts.qmd
@@ -25,9 +30,42 @@ website:
             text: Who Lies & Why
           - href: chapters/methods-subprojects.qmd
             text: Sub-Projects & Methods
+  sidebar: 
+    background: primary
+    style: floating
+    collapse-level: 1
+    contents: 
+      - href: index.qmd
+        text: Home
+      - href: slides/slides.qmd
+        text: Slides
+        target: _blank
+      - section: Chapters
+        contents: 
+          - href: chapters/key-concepts.qmd
+            text: Key Concepts
+          - href: chapters/why-timely.qmd
+            text: Why It's Timely
+          - href: chapters/research-highlights.qmd
+            text: Research Highlights
+          - href: chapters/detection.qmd
+            text: Detecting Deception
+          - href: chapters/who-lies.qmd
+            text: Who Lies & Why
+          - href: chapters/methods-subprojects.qmd
+            text: Sub-Projects & Methods
+      - section: Literature
+        contents: 
+          - href: literature/index.qmd
+            text: Annotated Bibliography
+
   page-footer:
-    left: "© {year} Deception Lab — Teaching materials."
-    right: "Built with Quarto & RevealJS"
+    left: |
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> • 
+      Dr. Gordon Wright <br>
+      A LittleMonkeyLab Caper
+    right: |
+      Made with ❤️ Quarto, RevealJS, and Zotero • © 2025
 
 format:
   html:
@@ -40,20 +78,14 @@ format:
     code-copy: true
     link-external-newwindow: true
     df-print: paged
-  revealjs:
-    theme:
-      - simple
-      - assets/custom.scss
-    slide-number: true
-    hash: true
-    progress: true
-    controls: true
-    code-copy: true
-    footer: "Deception Research in Psychology"
-    fig-align: center
+    page-layout: article
+    margin-left: 2em
+    margin-right: 2em
+  
 
 metadata-files:
   - assets/_meta.yml
 
 execute:
   freeze: auto
+

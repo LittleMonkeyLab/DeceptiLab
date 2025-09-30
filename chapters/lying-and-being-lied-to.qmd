@@ -1,0 +1,73 @@
+---
+title: "lying-and-being-lied-to"
+format: html
+bibliography: references.bib
+---
+
+# The Experience of Lying and Being Lied To
+
+## Introduction
+
+Deception is not simply a matter of outward behaviour; it also involves distinct internal experiences for both deceivers and those deceived. These experiences span affective, cognitive, and social domains, shaping how people engage in and respond to lies. Understanding these dimensions is essential for developing comprehensive models of deception and for anticipating the interpersonal consequences of dishonesty.
+
+------------------------------------------------------------------------
+
+## Affective Experience
+
+### Negative Emotions
+
+Many lies are accompanied by negative emotions such as guilt, shame, and anxiety. These emotions often arise from the conflict between personal moral standards and the act of deception (Vrij, 2008). Guilt may be especially salient in close relationships, where lying violates expectations of trust.
+
+### Positive Emotions
+
+Not all emotional experiences of lying are negative. The phenomenon of **duper’s delight** refers to the thrill or satisfaction some deceivers experience when successfully misleading others (Ekman, 2009). This positive reinforcement may contribute to habitual lying among prolific deceivers.
+
+### Individual Differences
+
+The affective load of lying varies by personality. People high in empathy or agreeableness tend to experience greater discomfort when lying, whereas individuals high in psychopathy or Machiavellianism report less guilt and anxiety (Jonason et al., 2014).
+
+------------------------------------------------------------------------
+
+## Cognitive Experience
+
+### Cognitive Load
+
+Deception typically imposes greater mental demands than truth-telling. Liars must suppress the truth, fabricate alternative accounts, and monitor their own behaviour for consistency. These processes consume cognitive resources, producing measurable signs of load such as longer response times, more speech errors, and reduced eye contact (Vrij et al., 2006).
+
+### Strategic Monitoring
+
+Liars must continually monitor the reactions of their audience. This self-presentation effort increases attentional demands, particularly in high-stakes lies. Prepared lies can reduce this load, but spontaneous lies are more likely to result in “leakage” due to overburdened working memory.
+
+------------------------------------------------------------------------
+
+## Social Experience
+
+### Trust and Suspicion
+
+Being lied to undermines interpersonal trust, creating what McCornack and Levine (1990) described as “suspicion spirals.” Once suspicion is raised, even honest communication may be doubted, eroding relational stability.
+
+### Repair and Reconciliation
+
+The discovery of deception often requires trust repair. Apologies, explanations, or justifications may help, but repeated or high-stakes lies can cause irreparable relational damage (Lewicki & Bunker, 1996).
+
+### Functional Lies
+
+Paradoxically, some lies serve prosocial functions, such as sparing another’s feelings or maintaining social harmony. In collectivist cultures in particular, such “other-oriented” lies may even be viewed as socially adaptive (Fu et al., 2008).
+
+------------------------------------------------------------------------
+
+## Conclusion
+
+The experience of deception is multidimensional. For deceivers, it involves emotional responses ranging from guilt to delight and cognitive processes that strain mental resources. For targets, deception alters trust, suspicion, and social dynamics. These experiences underscore that lying is not merely a communicative act but a psychological and relational event with lasting consequences.
+
+------------------------------------------------------------------------
+
+## References
+
+-   Ekman, P. (2009). *Telling lies: Clues to deceit in the marketplace, politics, and marriage* (3rd ed.). Norton.\
+-   Fu, G., Evans, A. D., Wang, L., & Lee, K. (2008). Lying in the name of the collective good: A developmental study. *Developmental Science, 11*(1), 66–77. https://doi.org/10.1111/j.1467-7687.2007.00608.x\
+-   Jonason, P. K., Lyons, M., Baughman, H. M., & Vernon, P. A. (2014). What a tangled web we weave: The Dark Triad traits and deception. *Personality and Individual Differences, 70*, 117–119. https://doi.org/10.1016/j.paid.2014.06.038\
+-   Lewicki, R. J., & Bunker, B. B. (1996). Developing and maintaining trust in work relationships. In R. M. Kramer & T. R. Tyler (Eds.), *Trust in organizations: Frontiers of theory and research* (pp. 114–139). Sage.\
+-   McCornack, S. A., & Levine, T. R. (1990). When lies are uncovered: Emotional and relational outcomes of discovered deception. *Communication Monographs, 57*(2), 119–138. https://doi.org/10.1080/03637759009376190\
+-   Vrij, A. (2008). *Detecting lies and deception: Pitfalls and opportunities* (2nd ed.). Wiley.\
+-   Vrij, A., Fisher, R., Mann, S., & Leal, S. (2006). Detecting deception by manipulating cognitive load. *Trends in Cognitive Sciences, 10*(4), 141–142. https://doi.org/10.1016/j.tics.2006.02.003

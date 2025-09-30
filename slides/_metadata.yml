@@ -1,0 +1,14 @@
+format:
+  pptx: 
+    reference-doc: RM2-reference.pptx
+  revealjs:
+    theme:
+      - simple
+      - ../assets/custom.scss
+    slide-number: true
+    hash: true
+    progress: true
+    controls: true
+    code-copy: true
+    footer: "Deception Research in Psychology"
+    fig-align: center

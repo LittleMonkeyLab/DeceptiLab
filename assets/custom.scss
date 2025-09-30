@@ -10,7 +10,20 @@ $navbar-fg: #ffffff;
 $font-size-base: 1.04rem;
 
 /* Optional font stack chosen for legibility; can swap for Atkinson Hyperlegible */
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+.section-cue {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.reveal {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
 
 /*-- scss:rules --*/
 
@@ -48,4 +61,13 @@ h1, h2, h3 {
   border-radius: 1rem;
   padding: 1rem 1.25rem;
   box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.reveal .slide-logo {
+  position: fixed !important;
+  top: 10px !important;
+  right: 30px !important;
+  width: 80px !important;
+  height: 80px !important;
+  z-index: 1000 !important;
 }

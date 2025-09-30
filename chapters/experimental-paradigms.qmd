@@ -1,0 +1,93 @@
+---
+title: "experimental-paradigms"
+format: html
+---
+
+# Experimental Paradigms in Deception Research
+
+## Introduction
+A central challenge in deception research is how to study lying under controlled but ecologically valid conditions. Naturalistic data, such as diary methods (DePaulo et al., 1996), provide valuable insights into everyday deception but lack experimental control. Laboratory paradigms allow researchers to systematically manipulate conditions, test causal hypotheses, and observe the behaviours of liars and truth-tellers. However, designing paradigms that balance realism, ethical considerations, and control is notoriously difficult. This chapter reviews the major experimental paradigms employed in deception research, their contributions, and their limitations.
+
+---
+
+## Cheating Paradigms
+
+### Design
+Cheating paradigms present participants with opportunities to dishonestly report outcomes for personal gain, typically under conditions of plausible deniability. Examples include rolling dice in private or solving matrices with self-reported scores (Shalvi et al., 2011). Participants are rewarded for favourable outcomes, creating a motivation to lie.
+
+### Advantages
+- High experimental control: Researchers can infer lying rates by comparing reported results to chance distributions.
+- Low ethical risk: Participants’ lies are minor and without serious real-world consequences.
+- Scalability: Easily implemented with large samples.
+
+### Limitations
+- Low ecological validity: The lies are often trivial and lack the emotional salience of high-stakes deception.
+- Group-level inference: Researchers infer dishonesty statistically, without identifying individual liars.
+- Limited generalisability: Findings may not extend to personal or relational lies.
+
+---
+
+## Mock-Crime Paradigms
+
+### Design
+In mock-crime studies, participants are instructed to commit a simulated offence (e.g., stealing money or an object) and are later interviewed as suspects (Vrij, 2008). Control participants complete a neutral task and are questioned under identical conditions. Researchers can then compare truthful and deceptive accounts.
+
+### Advantages
+- Forensic relevance: Closely models real-world investigative contexts.
+- Rich behavioural data: Allows examination of verbal, nonverbal, and physiological cues.
+- Testbed for interviewing techniques: Cognitive interviews, strategic questioning, and rapport-building can be evaluated.
+
+### Limitations
+- Ethical constraints: Participants know the crime is staged, which limits the stakes and emotional engagement.
+- Individual variability: Not all participants are equally motivated to deceive successfully.
+- Generalisability: Findings may not capture the complexity of real criminal deception.
+
+---
+
+## Deception Tournaments
+
+### Design
+So-called “Deception Olympics” or tournament paradigms involve competitive settings in which some participants attempt to deceive, while others attempt to detect deception (Street, 2015). Performance can be measured in terms of successful lies told and accurate detections made.
+
+### Advantages
+- Interactive: Captures the dynamic interplay between liars and detectors.
+- Comparative: Allows researchers to identify “good liars” and “good detectors.”
+- Motivational: The competitive element raises participant engagement.
+
+### Limitations
+- Artificial competition: May exaggerate behaviours not found in everyday interactions.
+- Sample constraints: Often limited to small groups or specialised populations.
+- Interpretive complexity: Difficult to disentangle individual ability from situational strategy.
+
+---
+
+## Other Paradigms
+
+### Sender–Receiver Games
+Economic games model lying as strategic communication. One participant (the sender) has privileged information and can misreport it to the receiver, whose choices affect both parties’ payoffs (Gneezy, 2005). These paradigms formalise lying as a decision-making process under incentives.
+
+### Concealed Information Tests
+Physiological paradigms such as the guilty knowledge test measure responses to stimuli associated with concealed information (Lykken, 1959). Although not deception in the strict sense, these tests are used to detect recognition of crime-relevant details.
+
+---
+
+## Comparative Evaluation
+
+Each paradigm offers unique insights but also distinct limitations. Cheating paradigms excel at quantifying dishonesty rates but lack personal involvement. Mock-crime paradigms approximate forensic contexts but cannot ethically replicate high-stakes lies. Tournament designs capture interpersonal dynamics but at the cost of ecological naturalism. Economic games illuminate strategic decision-making but often reduce deception to numerical payoffs. Researchers increasingly combine paradigms to triangulate findings.
+
+---
+
+## Conclusion
+
+Experimental paradigms are indispensable for deception research, providing structured ways to elicit and study lying behaviour. Yet no single paradigm captures the full complexity of real-world deception. Future progress lies in integrating paradigms, incorporating technological innovations, and addressing ethical challenges. By refining these models, psychologists can better understand not only how people lie in the laboratory but also how deception operates in everyday and forensic contexts.
+
+---
+
+## References
+
+- DePaulo, B. M., Kashy, D. A., Kirkendol, S. E., Wyer, M. M., & Epstein, J. A. (1996). Lying in everyday life. *Journal of Personality and Social Psychology, 70*(5), 979–995. https://doi.org/10.1037/0022-3514.70.5.979  
+- Gneezy, U. (2005). Deception: The role of consequences. *American Economic Review, 95*(1), 384–394. https://doi.org/10.1257/0002828053828662  
+- Lykken, D. T. (1959). The GSR in the detection of guilt. *Journal of Applied Psychology, 43*(6), 385–388. https://doi.org/10.1037/h0046060  
+- Shalvi, S., Dana, J., Handgraaf, M. J. J., & De Dreu, C. K. W. (2011). Justified ethicality: Observing desired counterfactuals modifies ethical perceptions and behavior. *Organizational Behavior and Human Decision Processes, 115*(2), 181–190. https://doi.org/10.1016/j.obhdp.2011.02.001  
+- Street, C. N. H. (2015). ALIED: Humans as adaptive lie detectors. *Journal of Applied Research in Memory and Cognition, 4*(4), 335–343. https://doi.org/10.1016/j.jarmac.2015.08.001  
+- Vrij, A. (2008). *Detecting lies and deception: Pitfalls and opportunities* (2nd ed.). Wiley.  
