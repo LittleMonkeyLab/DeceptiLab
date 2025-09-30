@@ -59,7 +59,7 @@ The Liar
 :::
 
 ::: {.references-small}
-@depauloLyingEverydayLife1996; @shalviJustifiedEthicalityObserving2011
+depauloLyingEverydayLife1996; shalviJustifiedEthicalityObserving2011
 :::
 
 ## Who is Good at Lying? {.content-slide}
@@ -69,8 +69,8 @@ The Liar
 :::
 
 ::: {.key-points}
-- High Machs/actors/poker players—candidate "good liars" @vrijGoodLiars2010
-- Evidence from large-scale studies @veriginLiePrevalenceLie2019
+- High Machs/actors/poker players—candidate "good liars" vrijGoodLiars2010
+- Evidence from large-scale studies veriginLiePrevalenceLie2019
 :::
 
 ## How Do People Lie? Channels & Strategies {.content-slide}
@@ -147,7 +147,7 @@ The Lie-Detector
 - **Linguistics**: pronouns, negations, specificity, temporal structure
 - **Nonverbal**: illustrators, adaptors, gaze (weak/variable indicators)
 - **Physiology**: heart rate, skin conductance; constraints & ethics
-- **Modality**: Audio, Visual, Audio-visual etc @kolkmanDeceptionDetectionImportance
+- **Modality**: Audio, Visual, Audio-visual etc kolkmanDeceptionDetectionImportance
 :::
 
 
@@ -177,7 +177,7 @@ Nonverbal cues are generally **weak and variable** indicators of deception
 ::::
 
 ::: {.references-small}
-@depauloCuesDeceptionMeta1996; @ekmanDetectingDeceptionNonverbal2001; @vrijNonverbalDeception2008; @burgoonNonverbalIndicatorsDeception2008; @zuckermanVerbalNonverbalCommunication1981; @fiedlerMetaAnalysisVerbal2019
+depauloCuesDeceptionMeta1996; ekmanDetectingDeceptionNonverbal2001; vrijNonverbalDeception2008; burgoonNonverbalIndicatorsDeception2008; zuckermanVerbalNonverbalCommunication1981; fiedlerMetaAnalysisVerbal2019
 :::
 
 ## Who is Good at Detecting Lies? {.content-slide}
@@ -195,7 +195,7 @@ The Lie-Detector
 :::
 
 ::: {.references-small}
-@bondIndividualDifferencesDeception2006; @tenBrinkeLieCatchers2014; @denaultMetaAnalysisIndividual2019; @levinsonIndividualDifferencesDeception2020
+bondIndividualDifferencesDeception2006; tenBrinkeLieCatchers2014; denaultMetaAnalysisIndividual2019; levinsonIndividualDifferencesDeception2020
 :::
 
 ## The Experience of Being Lied To {.content-slide}
@@ -241,7 +241,7 @@ The Lie
 ::: {.intro-text}
 @pennebakerPsychologicalAspectsNatural2003
 
-**Contextualised deception** [@newmanLyingWords2003; @hancockDeceptionAndLinguistic2008; @hancockTruthAndDeception2009; @tomaLinguisticCuesDeception2015]
+**Contextualised deception** [newmanLyingWords2003; hancockDeceptionAndLinguistic2008; hancockTruthAndDeception2009; tomaLinguisticCuesDeception2015]
 :::
 
 ---
@@ -283,7 +283,7 @@ The Lie
 The Context
 :::
 
-**Audio, Visual, Audio-visual** @kolkmanDeceptionDetectionImportance
+**Audio, Visual, Audio-visual** kolkmanDeceptionDetectionImportance
 
 ![](../images/modality.png){.center width="600px"}
 
@@ -402,7 +402,7 @@ Methods
 :::
 
 ::: {.paradigm-list}
-- **Cheating tasks**: dice/coin, matrices - Shalvi et al. (2011) [@shalviJustifiedEthicalityObserving2011]
+- **Cheating tasks**: dice/coin, matrices - Shalvi et al. (2011) [shalviJustifiedEthicalityObserving2011]
 - **Mock-crime with interviews**: forensic context
 - **"Deception Olympics" style sender-receiver games**
 - **Poker hands**: strategic deception
@@ -435,7 +435,7 @@ Methods
 Methods
 :::
 
-**Classic Study**: DePaulo et al. (1996) everyday lie diaries [@depauloLyingEverydayLife1996]
+**Classic Study**: DePaulo et al. (1996) everyday lie diaries [depauloLyingEverydayLife1996]
 
 ::: {.qualitative-methods}
 - **Thematic analysis**: of lie content and context
