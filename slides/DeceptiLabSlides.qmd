@@ -1,13 +1,10 @@
 ---
-title: "Deception Lab - Kick-off!"
 format:
   revealjs:
     theme: [default, lab-custom.scss]
-    page-footer:
+    footer:
       left: "Dr. Gordon Wright — A LittleMonkeyLab Caper"
       right: "❤️ Quarto + RevealJS, 2025"
-    # height: 900
-    # width: 1600
     scrollable: true
     embed-resources: true
     transition: fade
