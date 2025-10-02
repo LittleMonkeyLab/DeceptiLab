@@ -1,8 +1,0 @@
----
-title: "Why It's Interesting and Timely"
-
----
-
--   Everyday prevalence and societal cost (fraud, misinformation, clinical assessment).
--   Technology: deepfakes, AI-based detectors, large-scale text analytics.
--   Policy and ethics: reliability standards, bias, privacy, consent 

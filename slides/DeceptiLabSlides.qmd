@@ -1,0 +1,795 @@
+---
+title: "Deception Lab 3"
+format:
+  revealjs:
+    theme: [default, lab-custom.scss]
+    page-footer:
+      left: "Dr. Gordon Wright — A LittleMonkeyLab Caper"
+      right: "❤️ Quarto + RevealJS, 2025"
+    # height: 900
+    # width: 1600
+    scrollable: true
+    embed-resources: true
+    transition: fade
+    slide-number: c/t
+    menu: true
+    highlight-style: github
+    progress: true
+    code-overflow: wrap
+    logo: ../images/LMLLOGO.png
+bibliography: "DeceptiLabSlidesV4.bib"
+---
+
+# Welcome to Deception Lab! {.title-slide}
+
+------------------------------------------------------------------------
+
+## Little Monkey {background-color="#2583c6"}
+
+{{< video https://www.youtube.com/embed/8c7NEf6qFlc?si=dX7t-_ZG71n1EGl9&amp start="16" width="100%" height="85%" >}}
+
+------------------------------------------------------------------------
+
+# PART 1: THEORY {.section-divider}
+
+------------------------------------------------------------------------
+
+## Definition & The Intentionality Debate {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+:::::: columns
+::: {.column width="40%"}
+![](../images/LiarLieDetector.png){.center width="100%"}
+:::
+
+:::: {.column width="60%"}
+::: {.callout-note collapse="false" appearance="simple"}
+### Core Definition
+
+"A process by which one individual deliberately attempts to convince another person to accept as true what the liar knows to be false, typically for the liar to gain some type of benefit or to avoid loss."
+
+— Vrij (2000, p. 15)
+:::
+
+**The Intentionality Debate:** Most definitions emphasize intentional deception (Chisholm & Feehan, 1977; DePaulo et al., 2003), though some argue lying can occur without intent to mislead (Smith, 2007).
+::::
+::::::
+
+------------------------------------------------------------------------
+
+## The Deception Landscape {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+**How often do people lie?**
+
+- Diary studies: ~2 lies per day; 20–31% of interactions involve deception (DePaulo et al., 1996)
+- Distribution is highly skewed: ~5% of people tell ~50% of all lies (Serota et al., 2010, 2021)
+- Truth is the default: most people tell the truth most of the time
+
+**Why do people lie?**
+
+- Lie aversion: people forgo gains to avoid lying (Abeler et al., 2012; Gneezy, 2005)
+- Motivations: self vs. other; gain vs. loss (DePaulo, 1996; Vrij, 2008)
+- "Butler lies" maintain relationships (Hancock, 2009)
+- More willing to lie for charity than self (Yin et al., 2017)
+
+------------------------------------------------------------------------
+
+## Individual & Cultural Differences {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+**Pathological lying:** Compulsive, not goal-driven; linked to low self-esteem and neurocognitive deficits (Poletti, 2011)
+
+**Prolific liars:** Score high in Machiavellianism; manage consistency well (Kashy & DePaulo, 1996; El Haj, 2017)
+
+**Culture matters:**
+
+- Collectivist cultures: lie to protect relationships (Bessarabova, 2014; Park, 2018)
+- Individualist cultures: prioritize personal integrity
+- Frequent liars are not necessarily less moral (Halevy, 2014)
+
+------------------------------------------------------------------------
+
+## Three Theoretical Frameworks {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+Meso-level accounts examine the interaction between liar and recipient (Vrij et al., 2019):
+
+**1. Moral Psychology Account** (Bond & DePaulo, 2006)
+
+People judge others' lies as immoral but excuse their own. Distancing from moral responsibility enables self-serving evaluations (Shu et al., 2011; Shalvi et al., 2015).
+
+**2. Self-Presentational Theory** (DePaulo, 1992; Goffman, 1959)
+
+Both liars and truth-tellers manage impressions. Liars describe more strategies than truth-tellers (Hartwig et al., 2007). Self-deception may help convince others (Trivers, 2011).
+
+**3. Interpersonal Deception Theory (IDT)** (Buller & Burgoon, 1996)
+
+Focuses on dynamic interaction with real-time behavioral adjustments. Liars seek conversational control (Burgoon et al., 2014). Engages theory of mind networks (Christ et al., 2009).
+
+------------------------------------------------------------------------
+
+## Cognitive & Emotional Accounts {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+:::::: columns
+::: {.column width="50%"}
+**Cognitive Demands**
+
+Four-factor theory (Zuckerman et al., 1981):
+
+- Cognitive load
+- Emotional experience
+- Behavior control
+- Physiological arousal
+
+Deception requires inhibiting truth and constructing coherent false stories (Baddeley, 2007).
+
+Evidence: fMRI shows executive function overlap (Christ et al., 2009); longer response latencies (Suchotzki et al., 2017); time pressure promotes honesty.
+:::
+
+::: {.column width="50%"}
+**Emotional Experience**
+
+Leakage hypothesis: emotions may "leak" via body more than face (Ekman & Friesen, 1969).
+
+**Critical issue:** Truth-tellers may also show anxiety (Vrij et al., 2006). Emotional displays are not diagnostic of deception.
+
+**Four emotional experiences:**
+
+- Guilt (norm violation)
+- Anxiety (fear of detection)
+- Cognitive load (mental effort)
+- "Duper's delight" (success pleasure)
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Truth Bias & Detection Accuracy {.content-slide}
+
+::: slug-header
+Theory
+:::
+
+**The Truth Bias**
+
+People judge others as truthful more often than they actually are (Bond & DePaulo, 2006).
+
+Explanations:
+
+- Spinozan mind: belief is automatic (Gilbert, 1991)
+- Truth-Default Theory: we default to truth (Levine, 2014)
+- Adaptive Lie Detector: functional decision-making (Street, 2015)
+
+**Human Detection Performance**
+
+- ~54% accuracy (chance = 50%) (Bond & DePaulo, 2006)
+- No reliable behavioral signal found (DePaulo et al., 2003)
+- Training, confidence, or profession have little effect (Aamodt & Custer, 2006)
+- Recent developments: active elicitation techniques show promise (Nahari, 2019; Vrij & Granhag, 2012)
+
+------------------------------------------------------------------------
+
+![](../images/Aweekwithoutlying.png){.center width="70%"}
+
+------------------------------------------------------------------------
+
+# PART 2: PIECES OF THE PUZZLE {.section-divider}
+
+------------------------------------------------------------------------
+
+## Four Research Domains {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+Your mini-dissertation can focus on one domain or combine multiple:
+
+:::::: columns
+::: {.column width="50%"}
+**THE LIAR**
+
+Who lies? Who's good at it? What strategies do they use? What's the experience like?
+
+**THE LIE**
+
+What does deception look like? What are the linguistic and structural features?
+:::
+
+::: {.column width="50%"}
+**THE DETECTOR**
+
+Who's good at detecting? What cues do they use? What's the experience of being deceived?
+
+**THE CONTEXT**
+
+How do modality, relationship, culture, and stakes affect deception?
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## THE LIAR {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+**Who lies?**
+
+- Distribution: most lies by minority of prolific liars
+- Personality correlates: Machiavellianism, narcissism, psychopathy; low agreeableness
+- Contexts: authority vs. peers; online vs. offline; white lies vs. self-serving
+
+**Who is good at lying?**
+
+High Machs, actors, poker players are candidate "good liars" (Vrij, 2010; Verigin et al., 2019)
+
+**How do people lie?**
+
+Channels: face, body, voice, text | Strategies: faking good/bad, malingering, charm, feigned friendship
+
+**The experience of lying:** Affective (guilt, anxiety, delight), cognitive (load, monitoring), social (trust dynamics, suspicion)
+
+**Qualitative opportunities:** Interviews with prolific liars, diary studies, life history approaches
+
+------------------------------------------------------------------------
+
+## THE LIE {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+**Linguistic Cues to Deception**
+
+:::::: columns
+::: {.column width="50%"}
+- Fewer first-person pronouns (self-distancing)
+- More negations (denial)
+- Less specific (avoid details)
+- Less complex temporal structure (cognitive load)
+- More negative emotion words (anxiety/guilt)
+- Fewer social words (avoid connection)
+- Less complex language overall
+- Variable certainty (convince vs. uncertainty)
+:::
+
+::: {.column width="50%"}
+- Less diverse vocabulary (cognitive load)
+- Less readable (cognitive load)
+- Fewer words total (avoid details)
+- More qualifiers (uncertainty)
+- More repetitions (convince)
+- More psychological distancing
+:::
+::::::
+
+**Important:** These cues are probabilistic, not deterministic. Context matters.
+
+**Qualitative opportunities:** Discourse analysis of lie construction, narrative analysis of structure, thematic content patterns
+
+------------------------------------------------------------------------
+
+## THE DETECTOR {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+**Who is good at detecting lies?**
+
+- High empathy and social skills may help
+- Training helps minimally
+- Humans achieve ~54% accuracy
+- "Wizards" exist but are rare (ten Brinke et al., 2014; Levinson, 2020)
+
+**What cues are used?**
+
+- Linguistics: pronouns, negations, specificity, temporal structure
+- Nonverbal: illustrators, adaptors, gaze (**generally weak and variable**)
+- Physiology: heart rate, skin conductance (constraints & ethics)
+- Modality: audio, visual, audio-visual effects
+
+**The experience of being deceived:** Betrayal, doubt, rumination, trust erosion, relationship damage
+
+**Qualitative opportunities:** Interviews with expert detectors, think-aloud protocols, case studies, ethnographic observation
+
+------------------------------------------------------------------------
+
+## THE CONTEXT {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+:::::: columns
+::: {.column width="50%"}
+**Modality Effects**
+
+![](../images/modality.png){width="100%"}
+
+Meta-analyses show:
+
+- Audio-visual > audio or visual alone
+- Audio > visual (paralanguage cues)
+- Visual alone least effective
+- Text-based detection possible
+:::
+
+::: {.column width="50%"}
+**Other Contextual Factors**
+
+Relationship dynamics:
+
+- Authority vs. peer relationships
+- Intimate vs. casual relationships
+- Online vs. offline contexts
+
+Stakes and consequences:
+
+- High-stakes vs. low-stakes lies
+- Social vs. material consequences
+- Legal/forensic vs. everyday contexts
+
+Culture:
+
+- Collectivist vs. individualist
+- Display rules for emotion
+- Acceptability of different lie types
+:::
+::::::
+
+**Qualitative opportunities:** Situational analysis, context mapping, comparative ethnography across cultures
+
+------------------------------------------------------------------------
+
+## Integration Example {.content-slide}
+
+::: slug-header
+Pieces of the Puzzle
+:::
+
+**Example Study: Text-Based Deception by High Machs**
+
+- **THE LIAR:** Participants scoring high in Machiavellianism
+- **THE LIE:** Linguistic analysis using LIWC (pronouns, negations, certainty)
+- **THE DETECTOR:** Human judges and AI algorithm attempt detection
+- **THE CONTEXT:** Text modality with varying stakes conditions
+
+**Mixed methods approach:**
+
+- Quantitative: Linguistic feature analysis, detection accuracy, personality correlations
+- Qualitative: Post-task interviews about strategies, thematic analysis
+
+Your mini-dissertation can focus deeply on one domain or integrate multiple domains like this example.
+
+------------------------------------------------------------------------
+
+# PART 3: METHODS {.section-divider}
+
+------------------------------------------------------------------------
+
+## Experimental Paradigms: Production {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+**How do we get people to lie in the lab?**
+
+1. **Cheating tasks** — dice rolling, coin flipping, matrix tasks (Shalvi et al., 2011). Participants self-report outcomes with opportunity to inflate.
+
+2. **Mock crimes** — participants "commit" a mock theft then are interviewed. Compares truthful vs. deceptive statements in forensic-like context.
+
+3. **False opinion paradigm** — participants instructed to misrepresent attitudes or beliefs. Studies attitude misrepresentation.
+
+4. **Poker/strategic games** — participants play poker hands or deception-based games in natural strategic context.
+
+5. **Faking friendship** — brief micro-interactions where participants instructed to fake closeness. Studies social deception in relationships.
+
+------------------------------------------------------------------------
+
+## Experimental Paradigms: Detection {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+**How do we measure detection ability?**
+
+1. **Sender-receiver games** — "Deception Olympics" paradigms where senders lie or tell truth; receivers judge veracity.
+
+2. **Interview coding** — trained coders rate linguistic, nonverbal, or paralinguistic cues from recorded interviews.
+
+3. **AI vs. human judges** — transcripts, audio, or video scored by both algorithms and human raters to compare performance.
+
+4. **Modality manipulations** — same content presented via text, audio-only, video-only, or audio-visual to test channel effects.
+
+5. **Training interventions** — pre-post designs testing whether training improves detection accuracy or shifts response bias.
+
+------------------------------------------------------------------------
+
+## Quantitative Measures {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+**Lying Attitudes & Tendencies**
+
+- Lie Acceptability Scale (Oliveira & Levine, 2008)
+- Lying in Everyday Situations Scale (LiES) (Hart et al., 2019)
+- LYin Lying Tendency Scale (Zhou et al., 2024)
+- Lying Profile Questionnaire (Makowski et al., 2021)
+
+**Related Constructs**
+
+- Balanced Inventory of Desirable Responding (BIDR) (Paulhus, 1991)
+- Paulhus Deception Scales (PDS) (Paulhus, 1998)
+- Bullshit Receptivity Scale (Pennycook et al., 2015)
+- Emotional Manipulation Scale (Austin et al., 2007)
+
+**Performance Metrics**
+
+Detection: accuracy, confidence, sensitivity, specificity, d′, ROC curves, calibration
+
+Production: success rate, believability, confidence, consistency, response latency
+
+------------------------------------------------------------------------
+
+## Qualitative Methods {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+**Qualitative approaches provide rich, contextual understanding:**
+
+1. **Lie diaries** (DePaulo & Kashy, 1998) — participants record all lies and social interactions over 7 days
+
+2. **Thematic analysis** — identifying patterns in lie content, motives, targets, and outcomes
+
+3. **Narrative analysis** — examining structure of lies over time; how liars construct false narratives
+
+4. **Discourse analysis** — how lies are linguistically constructed; conversational patterns; power dynamics
+
+5. **Semi-structured interviews** — understanding lived experience of lying or being deceived; strategies; emotions
+
+6. **Ethnographic observation** — observing deception in natural settings (with ethics approval)
+
+7. **Case studies** — deep dives into prolific liars, expert detectors, or "wizards"
+
+8. **Focus groups** — group discussions about lying norms, experiences, attitudes across contexts
+
+------------------------------------------------------------------------
+
+## Mixed Methods Integration {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+**Your mini-dissertation requires mixed methods. Integration strategies:**
+
+:::::: columns
+::: {.column width="50%"}
+**Sequential Designs**
+
+QUAN → QUAL: Use quantitative findings to select cases or develop interview questions
+
+Example: Survey identifies prolific liars → in-depth interviews with high scorers
+
+QUAL → QUAN: Use qualitative insights to develop measures or hypotheses
+
+Example: Interviews reveal lying strategies → create questionnaire to measure strategy use
+:::
+
+::: {.column width="50%"}
+**Concurrent Designs**
+
+Triangulation: Collect both simultaneously to corroborate findings
+
+Example: Lie diary (QUAL content) + daily questionnaires (QUAN frequency)
+
+Embedded: One method plays supporting role
+
+Example: Experiment with post-task interviews about strategy
+:::
+::::::
+
+**Integration example:** 7-day diary study (QUAL thematic analysis) + Big Five personality (QUAN correlations) + semi-structured interviews about most significant lie (QUAL narrative analysis)
+
+------------------------------------------------------------------------
+
+## Technology & AI {.content-slide}
+
+::: slug-header
+Methods
+:::
+
+:::::: columns
+::: {.column width="50%"}
+**Approaches**
+
+- Text models score linguistic cues (LIWC, NLP)
+- Computer vision for facial dynamics
+- Multimodal integration of signals
+- Machine learning classifiers
+:::
+
+::: {.column width="50%"}
+**Critical Caveats**
+
+- Dataset bias
+- Context dependency
+- Ethical concerns (privacy, consent, misuse)
+- Generalization limitations
+- Requires validation against ground truth
+:::
+::::::
+
+AI tools are research aids, not perfect lie detectors. Always critically evaluate limitations and biases.
+
+------------------------------------------------------------------------
+
+# PART 4: YOUR PROJECT {.section-divider}
+
+------------------------------------------------------------------------
+
+## Relevant Constructs for Research {.content-slide}
+
+::: slug-header
+Your Project
+:::
+
+:::::: columns
+::: {.column width="33%"}
+**Personality**
+
+- Dark Triad (Machiavellianism, narcissism, psychopathy)
+- Big Five (especially Agreeableness)
+- HEXACO (Honesty-Humility)
+- Self-monitoring
+- Sensation seeking
+- Impulsivity
+:::
+
+::: {.column width="33%"}
+**Cognitive**
+
+- Working memory capacity
+- Executive function
+- Theory of Mind
+- Cognitive load capacity
+- Attention and monitoring
+- Decision making
+:::
+
+::: {.column width="33%"}
+**Social & Moral**
+
+- Empathy
+- Social skills
+- Emotional intelligence
+- Moral disengagement
+- Moral foundations
+- Trust propensity
+- Gullibility
+:::
+::::::
+
+------------------------------------------------------------------------
+
+## Mini-Dissertation Ideas (1/3) {.content-slide}
+
+::: slug-header
+Your Project
+:::
+
+**1. Lie Diaries + Personality**
+
+Quan: 7-day diary (frequency, target, motive) + Big Five + LiES scale
+
+QUAL: Thematic analysis of lie content; semi-structured interviews about most significant lie
+
+RQs: Do personality traits predict lie frequency/type? What themes emerge in daily deception?
+
+**2. Mock Crime Detection Study**
+
+Quan: Mock theft paradigm; coder ratings of linguistic cues; detector accuracy + confidence
+
+QUAL: Interviews with "guilty" and "innocent" participants; discourse analysis of statements
+
+RQs: Which cues predict detection? How do truth-tellers vs. liars describe their experience?
+
+## Mini-Dissertation Ideas (2/3) {.content-slide}
+
+::: slug-header
+Your Project
+:::
+
+**3. Faking Friendship**
+
+Quan: Brief interactions (genuine vs. instructed fake); observer ratings; linguistic accommodation
+
+QUAL: Post-interaction interviews about strategies; narrative analysis of relationship descriptions
+
+RQs: What makes fake closeness convincing? How do deceivers manage authenticity performance?
+
+**4. Online vs. Offline Deception**
+
+Quan: Lying frequency across modalities; LTS; detection accuracy across channels
+
+QUAL: Focus groups discussing online vs. face-to-face lying; discourse analysis of text vs. verbal lies
+
+RQs: Does modality affect lying behavior? How do people adapt strategies to medium?
+
+## Mini-Dissertation Ideas (3/3) {.content-slide}
+
+::: slug-header
+Your Project
+:::
+
+**5. Emotional Experience of Deception**
+
+Quan: Deception task with self-report guilt/anxiety/delight; physiological measures (optional); personality predictors
+
+QUAL: Retrospective interviews about emotional experience; thematic analysis
+
+RQs: What emotions accompany deception? Individual differences in emotional response?
+
+**6. Prolific Liars**
+
+Quan: 24-hour lie frequency; Dark Triad; detection success rate in experimental task
+
+QUAL: In-depth case studies of high-frequency liars; life history interviews
+
+RQs: What distinguishes prolific liars? How do they understand their behavior?
+
+## Mini-Dissertation Ideas (bonus) {.content-slide}
+
+::: slug-header
+Your Project
+:::
+
+**! AI lie detection support**
+
+Quan: Audio Transcribed, Transcripts coded by NLP model + human raters; accuracy, bias, confidence compared
+
+QUAL: Think-aloud protocols from human detectors; thematic analysis of decision-making strategies or confidence in AI support
+
+RQs: What cues do humans vs. AI rely on? Can we improve human detection with AI cooperation?
+
+------------------------------------------------------------------------
+
+## Questions & Discussion 
+
+**Let's discuss your research ideas!**
+
+- What domain(s) interest you most?
+- What methods feel most appropriate for your questions?
+- How will you integrate quantitative and qualitative approaches?
+
+------------------------------------------------------------------------
+# KEY READING {.section-divider}
+
+------------------------------------------------------------------------
+
+## Primary Reading: Vrij, Hartwig, & Granhag (2019) {.content-slide}
+
+::: slug-header
+Key Reading
+:::
+
+**Summary**
+
+::: {.smaller}
+
+This comprehensive Annual Review article examines nonverbal communication and deception detection. Key findings:
+
+- Nonverbal cues to deception are **faint and unreliable** (effect sizes typically d < 0.30)
+- Human detection accuracy is only ~54% (barely above chance of 50%)
+- Verbal cues are more diagnostic than nonverbal cues
+- People hold widespread misconceptions about deception cues (e.g., gaze aversion, fidgeting)
+- Visual-only detection is least accurate; audio-only is more effective
+- Training based on nonverbal cues produces minimal improvements
+- Theoretical frameworks include cognitive load, emotional leakage, self-presentation, and interpersonal deception theory
+- Future research should examine settings where nonverbal analysis is essential and develop more precise measurements
+
+**Critical insight:** Despite popular belief and media portrayals, there is no "Pinocchio's nose" — no reliable nonverbal sign of deception exists.
+
+:::
+
+**Reference**
+
+Vrij, A., Hartwig, M., & Granhag, P. A. (2019). Reading lies: Nonverbal communication and deception. *Annual Review of Psychology, 70*, 295–317. https://doi.org/10.1146/annurev-psych-010418-103135
+
+## Primary Reading: Denault et al. (2022) {.content-slide}
+
+::: slug-header
+Key Reading
+:::
+
+**Summary**
+
+::: {.smaller}
+This bibliometric overview analyzes over 100 years of social science research on deception and lying. Key findings:
+
+- **7,290 English-language articles** identified from Web of Science (1900-2022)
+- Research accelerated dramatically: **44.5% of all articles published 2010-2019**
+- Top journal: *Applied Cognitive Psychology* (2.15% of articles)
+- Research is **highly interdisciplinary**: psychology, economics, law, criminology, neuroscience
+- Leading author: Aldert Vrij (201 articles); most cited: Bella DePaulo (159 citations/article)
+- Most used keywords: behavior, lie detection, information, cues, accuracy
+- **Critical gap**: Organizations like TSA adopted unfounded "behavioral analysis" programs (e.g., SPOT) despite lack of scientific evidence
+- Research extends beyond lie detection to: children's lying behavior, dishonesty, self-deception, interviewing techniques
+- **Major challenge**: Communicating scientific findings to practitioners who face "immediate and easy solutions to complex challenges" from pseudoscientific sources
+
+**Critical insight:** Despite substantial scientific knowledge, misconceptions about deception persist in practice, media, and large organizations—sometimes with costly consequences ($212M annually for SPOT program).
+:::
+
+**Reference**
+
+Denault, V., Talwar, V., Plusquellec, P., & Larivière, V. (2022). On deception and lying: An overview of over 100 years of social science research. *Applied Cognitive Psychology, 36*(4), 830–848. https://doi.org/10.1002/acp.3971
+
+
+
+## References {.content-slide}
+
+::: slug-header
+References
+:::
+
+Armas-Vargas, E., Triviño, M., Riquelme, A., & Cortés, D. (2023). CEMA-A: Cuestionario de Evaluación de la Motivación para el Engaño en Adultos. *Frontiers in Psychology, 14*, Article 1289209. https://doi.org/10.3389/fpsyg.2023.1289209
+
+Austin, E. J., Farrelly, D., Black, C., & Moore, H. (2007). Emotional intelligence, Machiavellianism and emotional manipulation: Does EI have a dark side? *Personality and Individual Differences, 43*(1), 179–189. https://doi.org/10.1016/j.paid.2006.11.019
+
+Crowne, D. P., & Marlowe, D. (1960). A new scale of social desirability independent of psychopathology. *Journal of Consulting Psychology, 24*(4), 349–354. https://doi.org/10.1037/h0047358
+
+DePaulo, B. M., & Kashy, D. A. (1998). Everyday lies in close and casual relationships. *Journal of Personality and Social Psychology, 74*(1), 63–79. https://doi.org/10.1037/0022-3514.74.1.63
+
+Fernandes, A., Souza, C., Oliveira, M., & Rodrigues, P. (2023). Individual differences in beliefs about lie detection abilities. *PLOS ONE, 18*(6), Article e0285124. https://doi.org/10.1371/journal.pone.0285124
+
+Hart, W., Jones, A., Terrizzi, J. A., & Curtis, D. A. (2019). Lying in everyday situations: An exploration using the LiES. *American Journal of Psychology, 132*(3), 343–352. https://doi.org/10.5406/amerjpsyc.132.3.0343
+
+Hyde, J., & Grieve, R. (2014). Able and willing: Refining the measurement of emotional manipulation. *Personality and Individual Differences, 64*, 131–134. https://doi.org/10.1016/j.paid.2014.02.037
+
+Lanyon, R. I. (1993). Development and validation of the Psychological Screening Inventory. *Psychological Assessment, 5*(3), 324–328. https://doi.org/10.1037/1040-3590.5.3.324
+
+Littrell, S., Risko, E., & Fugelsang, J. (2021). The bullshitting frequency scale: Development and validation. *Journal of Personality Assessment, 103*(3), 348–359. https://doi.org/10.1080/00223891.2020.1756297
+
+Makowski, D., Sperduti, M., & Nicolas, S. (2021). The structure of lying: Validation of the Lying Profile Questionnaire. *Behavior Research Methods, 53*, 2321–2337. https://doi.org/10.3758/s13428-021-01570-0
+
+Oliveira, C., & Levine, T. R. (2008). The Lie Acceptability Scale. *Communication Research Reports, 25*(4), 282–288. https://doi.org/10.1080/08824090802440127
+
+Paulhus, D. L. (1991). Measurement and control of response bias. *Measures of Personality and Social Psychological Attitudes, 1*, 17–59.
+
+Paulhus, D. L. (1998). *Paulhus Deception Scales (PDS): User's manual*. Multi-Health Systems.
+
+Pennycook, G., Cheyne, J. A., Barr, N., Koehler, D. J., & Fugelsang, J. A. (2015). On the reception and detection of pseudo-profound bullshit. *Judgment and Decision Making, 10*(6), 549–563.
+
+Rogers, T., Zeckhauser, R., Gino, F., Norton, M. I., & Schweitzer, M. E. (2017). Artful paltering: The risks and rewards of using truthful statements to mislead others. *Journal of Personality and Social Psychology, 112*(4), 456–473. https://doi.org/10.1037/pspi0000081
+
+Serota, K. B., Levine, T. R., & Boster, F. J. (2010). The prevalence of lying in America: Three studies of self-reported lies. *Human Communication Research, 36*(1), 2–25. https://doi.org/10.1111/j.1468-2958.2009.01366.x
+
+Sirvent, C., Munoz, J. J., & Bravo, A. J. (2019). Evaluation of self-deception: Psychometric properties of the SDQ-12. *PLOS ONE, 14*(2), Article e0210815. https://doi.org/10.1371/journal.pone.0210815
+
+Zhou, H., Li, X., & Chen, J. (2024). The LYin lying tendency scale: Development and validation. *Current Psychology*. https://doi.org/10.1007/s12144-024-06087-1

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .chart-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .bar-container {
+            display: flex;
+            align-items: end;
+            justify-content: space-around;
+            height: 200px;
+            border-bottom: 2px solid #333;
+            border-left: 2px solid #333;
+            padding: 10px;
+            background: #f8f9fa;
+        }
+        .bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80px;
+        }
+        .bar-fill {
+            width: 60px;
+            border-radius: 4px 4px 0 0;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 5px;
+        }
+        .chance-bar {
+            height: 100px;
+            background: #6c757d;
+        }
+        .accuracy-bar {
+            height: 108px;
+            background: #dc3545;
+        }
+        .bar-label {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .y-axis {
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 12px;
+        }
+        .x-axis-label {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <div class="chart-title">Human Lie Detection Performance</div>
+        <div class="bar-container">
+            <div class="bar">
+                <div class="bar-fill chance-bar">50%</div>
+                <div class="bar-label">Chance</div>
+            </div>
+            <div class="bar">
+                <div class="bar-fill accuracy-bar">54%</div>
+                <div class="bar-label">Human Accuracy</div>
+            </div>
+        </div>
+        <div class="x-axis-label">Detection Accuracy</div>
+    </div>
+</body>
+</html>

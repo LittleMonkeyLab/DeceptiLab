@@ -47,6 +47,65 @@ IMT accounts for both outright lies and subtle forms of deception such as equivo
 
 ---
 
+### **Truth-Default Theory (TDT)**
+
+- **Proposed by**: Timothy R. Levine
+- **Core Idea**: People tend to believe others by default unless there is a trigger to suspect deception.
+- **Key Reference**: Levine, T. R., & McCornack, S. A. (2014). _Theorizing about deception_. _Journal of Language and Social Psychology_, 33(4), 431–440.
+
+### **Information Manipulation Theory 2 (IMT2)**
+
+- **Proposed by**: Steven McCornack and Timothy Levine
+- **Core Idea**: Deception occurs through manipulation of information quantity, quality, relevance, and clarity.
+- **Key Reference**: Same as above.
+
+### **Leakage Theory**
+
+- **Core Idea**: Deceptive individuals may unintentionally "leak" cues through nonverbal behavior due to cognitive load or emotional stress.
+- **Key Reference**: Nortje & Tredoux (2019). _How good are we at detecting deception?_ _South African Journal of Psychology_, 49(4).
+
+### **Reality Monitoring Theory**
+
+- **Proposed by**: Johnson & Raye (1981)
+- **Core Idea**: Truthful memories contain more sensory, contextual, and affective information than fabricated ones.
+- **Key Reference**: Nortje & Tredoux (2019).
+
+### **Cue Theories**
+
+- **Core Idea**: Specific verbal and nonverbal behaviors (e.g., gaze aversion, speech hesitations) are believed to signal deception.
+- **Critique**: Meta-analyses show inconsistent support for these cues.
+- **Key Reference**: Levine, T. R. (2018). _Scientific Evidence and Cue Theories in Deception Research_.
+
+### **Cognitive Load Theory**
+
+- **Core Idea**: Lying is cognitively demanding, so deceptive individuals may show signs of increased mental effort (e.g., longer response times).
+- **Key Reference**: Gamer & Ambach (2014). _Deception research today_. _Frontiers in Psychology_.
+
+### **Strategic Interpersonal Communication (SIC) Theory**
+
+- **Proposed by**: Buller & Burgoon
+- **Core Idea**: Deception is a dynamic, interactive process where deceivers manage impressions and anticipate responses.
+- **Key Reference**: Buller & Burgoon (1996), cited in Chadwick & Stanyer (2022).
+
+### **Deception Faucet Theory**
+
+- **Proposed by**: David M. Markowitz
+- **Core Idea**: Deception is not binary (truth vs. lie) but a fluid mix, like water from a faucet. It integrates conversational maxims and contextual factors.
+- **Key Reference**: Markowitz, D. M. (2020). _The deception faucet: A metaphor to conceptualize deception and its detection_. _New Ideas in Psychology_, 59, Article 100816.
+
+### **Interpersonal Deception Theory (IDT)**
+
+- **Proposed by**: David Buller & Judee Burgoon (1996)
+- **Core Idea**: Deception is a dynamic, interactive process where both sender and receiver adapt their behavior in real time. It includes falsification, concealment, and equivocation.
+- **Key Reference**: Buller, D. B., & Burgoon, J. K. (1996). _Interpersonal Deception Theory_. _Communication Theory_, 6(3), 203–242.
+
+### **Interpersonal Deception Theory (IDT)**
+
+- **Proposed by**: David Buller & Judee Burgoon (1996)
+- **Core Idea**: Deception is a dynamic, interactive process where both sender and receiver adapt their behavior in real time. It includes falsification, concealment, and equivocation.
+- **Key Reference**: Buller, D. B., & Burgoon, J. K. (1996). _Interpersonal Deception Theory_. _Communication Theory_, 6(3), 203–242.
+
+
 ## Evolutionary Perspectives
 From an evolutionary viewpoint, deception is adaptive: it facilitates survival, mate selection, and social competition. Animal behaviour studies reveal widespread use of deceptive signals, suggesting evolutionary continuity (Byrne & Whiten, 1988). In humans, deception may have co-evolved with mechanisms for detecting lies, creating an evolutionary “arms race.”
 

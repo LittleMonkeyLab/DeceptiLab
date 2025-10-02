@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .linguistic-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .comparison-table th {
+            background: #2c3e50;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .comparison-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .truth-tellers {
+            background: #d4edda;
+            font-weight: bold;
+        }
+        .liars {
+            background: #f8d7da;
+            font-weight: bold;
+        }
+        .cue-name {
+            text-align: left;
+            font-weight: bold;
+            background: #f8f9fa;
+            width: 30%;
+        }
+        .arrow-up {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .arrow-down {
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .explanation {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+            font-style: italic;
+        }
+        .section-header {
+            background: #e9ecef;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="linguistic-container">
+        <div class="chart-title">Linguistic Cues: Truth-tellers vs Liars</div>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Linguistic Cue</th>
+                    <th>Truth-tellers</th>
+                    <th>Liars</th>
+                    <th>Direction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="section-header">
+                    <td colspan="4">Self-Distancing & Emotion</td>
+                </tr>
+                <tr>
+                    <td class="cue-name">First-person pronouns</td>
+                    <td class="truth-tellers">More</td>
+                    <td class="liars">Fewer</td>
+                    <td><span class="arrow-down">↓</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Negations</td>
+                    <td class="truth-tellers">Fewer</td>
+                    <td class="liars">More</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Negative emotion words</td>
+                    <td class="truth-tellers">Fewer</td>
+                    <td class="liars">More</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td colspan="4">Cognitive Load Indicators</td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Specificity</td>
+                    <td class="truth-tellers">More specific</td>
+                    <td class="liars">Less specific</td>
+                    <td><span class="arrow-down">↓</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Word count</td>
+                    <td class="truth-tellers">More words</td>
+                    <td class="liars">Fewer words</td>
+                    <td><span class="arrow-down">↓</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Cognitive complexity</td>
+                    <td class="truth-tellers">More complex</td>
+                    <td class="liars">Less complex</td>
+                    <td><span class="arrow-down">↓</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Vocabulary diversity</td>
+                    <td class="truth-tellers">More diverse</td>
+                    <td class="liars">Less diverse</td>
+                    <td><span class="arrow-down">↓</span></td>
+                </tr>
+                
+                <tr class="section-header">
+                    <td colspan="4">Uncertainty & Conviction</td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Tentativeness</td>
+                    <td class="truth-tellers">Less tentative</td>
+                    <td class="liars">More tentative</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Certainty</td>
+                    <td class="truth-tellers">Less certain</td>
+                    <td class="liars">More certain</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Qualifiers</td>
+                    <td class="truth-tellers">Fewer</td>
+                    <td class="liars">More</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+                <tr>
+                    <td class="cue-name">Repetitions</td>
+                    <td class="truth-tellers">Fewer</td>
+                    <td class="liars">More</td>
+                    <td><span class="arrow-up">↑</span></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="explanation">
+            ↑ = Higher in liars | ↓ = Lower in liars
+        </div>
+    </div>
+</body>
+</html>

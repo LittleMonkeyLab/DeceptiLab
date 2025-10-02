@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .modality-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .bars-container {
+            display: flex;
+            align-items: end;
+            justify-content: space-around;
+            height: 250px;
+            border-bottom: 2px solid #333;
+            border-left: 2px solid #333;
+            padding: 10px;
+            background: #f8f9fa;
+            margin-bottom: 20px;
+        }
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80px;
+        }
+        .bar {
+            width: 60px;
+            border-radius: 4px 4px 0 0;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px;
+            margin-bottom: 2px;
+        }
+        .visual-bar {
+            height: 80px;
+            background: #dc3545;
+        }
+        .audio-bar {
+            height: 120px;
+            background: #28a745;
+        }
+        .audiovisual-bar {
+            height: 140px;
+            background: #007bff;
+        }
+        .bar-label {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .y-axis-labels {
+            position: absolute;
+            left: -50px;
+            top: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 10px;
+        }
+        .x-axis-label {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+        }
+        .legend-color {
+            width: 15px;
+            height: 15px;
+            border-radius: 2px;
+            margin-right: 5px;
+        }
+        .visual-color { background: #dc3545; }
+        .audio-color { background: #28a745; }
+        .audiovisual-color { background: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="modality-container">
+        <div class="chart-title">Detection Accuracy by Modality</div>
+        
+        <div class="bars-container">
+            <div class="bar-group">
+                <div class="bar visual-bar">Lowest</div>
+                <div class="bar-label">Visual Only</div>
+            </div>
+            <div class="bar-group">
+                <div class="bar audio-bar">Better</div>
+                <div class="bar-label">Audio Only</div>
+            </div>
+            <div class="bar-group">
+                <div class="bar audiovisual-bar">Best</div>
+                <div class="bar-label">Audio-Visual</div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color visual-color"></div>
+                <span>Weak nonverbal cues</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color audio-color"></div>
+                <span>Paralanguage cues</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color audiovisual-color"></div>
+                <span>Combined signals</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

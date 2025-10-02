@@ -18,7 +18,7 @@ $slug-text: #ffffff;
 // Typography
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $presentation-heading-font: $font-family-sans-serif;
-$presentation-font-size-root: 32px;
+$presentation-font-size-root: 20px;
 $presentation-h1-font-size: 2.5em;
 $presentation-h2-font-size: 1.8em;
 $presentation-h3-font-size: 1.4em;
@@ -139,14 +139,21 @@ $presentation-h3-font-size: 1.4em;
   padding: 1.5em;
   border-radius: 8px;
   margin: 1.5em 0;
+  list-style: none;
   
   li {
     margin-bottom: 0.8em;
+    list-style: none;
     
     strong {
       color: $primary-color;
       font-weight: 600;
     }
+  }
+  
+  ul {
+    list-style: none;
+    margin-left: 0;
   }
 }
 
@@ -319,6 +326,8 @@ $presentation-h3-font-size: 1.4em;
 .cognitive-list {
   columns: 2;
   column-gap: 2em;
+  list-style: none;
+  margin-left: 0;
   
   li {
     break-inside: avoid;
@@ -326,6 +335,7 @@ $presentation-h3-font-size: 1.4em;
     background: $background-light;
     margin-bottom: 0.8em;
     border-radius: 6px;
+    list-style: none;
     
     strong {
       color: $primary-color;
@@ -372,7 +382,20 @@ $presentation-h3-font-size: 1.4em;
   }
   
   ul {
-    margin-left: 1em;
+    margin-left: 0;
+    list-style: none;
+    
+    li {
+      list-style: none;
+      margin-bottom: 0.5em;
+      
+      &::before {
+        content: "→ ";
+        color: $white;
+        font-weight: bold;
+        margin-right: 0.5em;
+      }
+    }
   }
 }
 
@@ -410,7 +433,20 @@ $presentation-h3-font-size: 1.4em;
   }
   
   ul {
-    margin-left: 1em;
+    margin-left: 0;
+    list-style: none;
+    
+    li {
+      list-style: none;
+      margin-bottom: 0.5em;
+      
+      &::before {
+        content: "→ ";
+        color: $white;
+        font-weight: bold;
+        margin-right: 0.5em;
+      }
+    }
   }
 }
 
@@ -573,13 +609,17 @@ $presentation-h3-font-size: 1.4em;
 
 // Logo styling
 .reveal .slide-logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  max-height: 80px;
-  max-width: 150px;
+  position: fixed !important;
+  top: 20px !important;
+  left: 20px !important;
+  max-height: 80px !important;
+  max-width: 150px !important;
+  width: auto !important;
+  height: auto !important;
   z-index: 100;
   opacity: 0.9;
+  object-fit: contain !important;
+  transform: none !important;
   
   // Hide on title slide
   .title-slide & {
@@ -590,6 +630,18 @@ $presentation-h3-font-size: 1.4em;
   .section-divider & {
     display: none;
   }
+}
+
+// Additional logo fix for reveal.js defaults
+.reveal img.slide-logo {
+  max-height: 80px !important;
+  max-width: 150px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
 }
 
 // Strong emphasis
@@ -628,14 +680,6 @@ $presentation-h3-font-size: 1.4em;
   border-radius: 4px;
 }
 
-// Footer
-.reveal .footer {
-  background: rgba($primary-color, 0.95);
-  color: $white;
-  padding: 0.5em 1em;
-  font-size: 0.7em;
-  border-top: 2px solid $accent-color;
-}
 
 // Progress bar
 .reveal .progress {

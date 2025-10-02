@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .comparison-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .comparison-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .experience-box {
+            background: white;
+            border: 3px solid;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .liar-box {
+            border-color: #dc3545;
+        }
+        .detector-box {
+            border-color: #007bff;
+        }
+        .experience-title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            color: white;
+        }
+        .liar-title {
+            background: #dc3545;
+        }
+        .detector-title {
+            background: #007bff;
+        }
+        .experience-category {
+            margin: 20px 0;
+        }
+        .category-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            color: white;
+        }
+        .liar-category {
+            background: #e74c3c;
+        }
+        .detector-category {
+            background: #3498db;
+        }
+        .category-items {
+            list-style: none;
+            padding: 0;
+        }
+        .category-item {
+            background: #f8f9fa;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-left: 4px solid;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .liar-item {
+            border-left-color: #dc3545;
+        }
+        .detector-item {
+            border-left-color: #007bff;
+        }
+        .vs-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .vs-circle {
+            background: #6c757d;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .shared-challenges {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .shared-title {
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .shared-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .shared-item {
+            background: #fefefe;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #856404;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="comparison-container">
+        <div class="chart-title">The Experience of Deception: Two Perspectives</div>
+        
+        <div class="comparison-area">
+            <div class="experience-box liar-box">
+                <div class="experience-title liar-title">THE LIAR'S EXPERIENCE</div>
+                
+                <div class="experience-category">
+                    <div class="category-title liar-category">Affective</div>
+                    <ul class="category-items">
+                        <li class="category-item liar-item">Guilt</li>
+                        <li class="category-item liar-item">Anxiety</li>
+                        <li class="category-item liar-item">"Duper's delight"</li>
+                        <li class="category-item liar-item">Fear of detection</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-category">
+                    <div class="category-title liar-category">Cognitive</div>
+                    <ul class="category-items">
+                        <li class="category-item liar-item">Cognitive load</li>
+                        <li class="category-item liar-item">Self-monitoring</li>
+                        <li class="category-item liar-item">Self-presentation</li>
+                        <li class="category-item liar-item">Working memory demands</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-category">
+                    <div class="category-title liar-category">Social</div>
+                    <ul class="category-items">
+                        <li class="category-item liar-item">Trust repair</li>
+                        <li class="category-item liar-item">Suspicion spirals</li>
+                        <li class="category-item liar-item">Relationship dynamics</li>
+                        <li class="category-item liar-item">Impression management</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="experience-box detector-box">
+                <div class="experience-title detector-title">THE LIE-DETECTOR'S EXPERIENCE</div>
+                
+                <div class="experience-category">
+                    <div class="category-title detector-category">Affective</div>
+                    <ul class="category-items">
+                        <li class="category-item detector-item">Betrayal</li>
+                        <li class="category-item detector-item">Anger</li>
+                        <li class="category-item detector-item">Disappointment</li>
+                        <li class="category-item detector-item">Trust erosion</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-category">
+                    <div class="category-title detector-category">Cognitive</div>
+                    <ul class="category-items">
+                        <li class="category-item detector-item">Doubt</li>
+                        <li class="category-item detector-item">Rumination</li>
+                        <li class="category-item detector-item">Reevaluation</li>
+                        <li class="category-item detector-item">Suspicion bias</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-category">
+                    <div class="category-title detector-category">Social</div>
+                    <ul class="category-items">
+                        <li class="category-item detector-item">Trust erosion</li>
+                        <li class="category-item detector-item">Relationship damage</li>
+                        <li class="category-item detector-item">Social withdrawal</li>
+                        <li class="category-item detector-item">Communication breakdown</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="shared-challenges">
+            <div class="shared-title">Shared Challenges in the Deception Process</div>
+            <div class="shared-list">
+                <div class="shared-item">Cognitive Load Management</div>
+                <div class="shared-item">Emotional Regulation</div>
+                <div class="shared-item">Social Coordination</div>
+                <div class="shared-item">Relationship Maintenance</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

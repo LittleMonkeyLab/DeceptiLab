@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .taxonomy-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .matrix-container {
+            background: white;
+            border: 3px solid #2c3e50;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .matrix-header {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            background: #34495e;
+            color: white;
+            font-weight: bold;
+        }
+        .matrix-header-cell {
+            padding: 15px;
+            text-align: center;
+            border-right: 2px solid #2c3e50;
+        }
+        .matrix-header-cell:last-child {
+            border-right: none;
+        }
+        .matrix-row {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        .matrix-row:last-child {
+            border-bottom: none;
+        }
+        .matrix-row-header {
+            background: #ecf0f1;
+            padding: 20px 15px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 2px solid #bdc3c7;
+            font-size: 16px;
+        }
+        .matrix-cell {
+            padding: 20px 15px;
+            border-right: 2px solid #ecf0f1;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .matrix-cell:last-child {
+            border-right: none;
+        }
+        .gain-cell {
+            background: #d1ecf1;
+        }
+        .loss-cell {
+            background: #f8d7da;
+        }
+        .cell-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        .example-text {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 12px;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        .gain-color {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+        }
+        .loss-color {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        .citation {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="taxonomy-container">
+        <div class="chart-title">Lying Motives Taxonomy</div>
+        
+        <div class="matrix-container">
+            <div class="matrix-header">
+                <div class="matrix-header-cell"></div>
+                <div class="matrix-header-cell">GAIN</div>
+                <div class="matrix-header-cell">AVOID LOSS</div>
+            </div>
+            
+            <div class="matrix-row">
+                <div class="matrix-row-header">SELF</div>
+                <div class="matrix-cell gain-cell">
+                    <div class="cell-title">Self-Gain</div>
+                    <div>Lying to benefit oneself</div>
+                    <div class="example-text">Example: Exaggerating qualifications for a job</div>
+                </div>
+                <div class="matrix-cell loss-cell">
+                    <div class="cell-title">Self-Protection</div>
+                    <div>Lying to avoid personal loss</div>
+                    <div class="example-text">Example: Denying wrongdoing to avoid punishment</div>
+                </div>
+            </div>
+            
+            <div class="matrix-row">
+                <div class="matrix-row-header">OTHER</div>
+                <div class="matrix-cell gain-cell">
+                    <div class="cell-title">Other-Benefit</div>
+                    <div>Lying to benefit someone else</div>
+                    <div class="example-text">Example: "Butler lies" to maintain relationships</div>
+                </div>
+                <div class="matrix-cell loss-cell">
+                    <div class="cell-title">Other-Protection</div>
+                    <div>Lying to protect someone else</div>
+                    <div class="example-text">Example: Lying to charity vs self (Yin et al., 2017)</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color gain-color"></div>
+                <span>Advantage-seeking</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color loss-color"></div>
+                <span>Loss-avoidance</span>
+            </div>
+        </div>
+        
+        <div class="citation">
+            DePaulo (1996); Vrij (2008)
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1072 @@
+---
+title: "Lab Custom SCSS Cheatsheet"
+subtitle: "Quick Reference Guide for lab-custom.scss"
+format: 
+  revealjs:
+    theme: [default, lab-custom.scss]
+    height: 900
+    width: 1600
+    slide-number: c/t
+    logo: ../images/LMLLOGO.png
+---
+
+# SCSS Features Guide {.section-divider}
+
+## Slide Classes Overview {.content-slide}
+
+::: {.slug-header}
+Basics
+:::
+
+### Main Slide Types
+
+```markdown
+## Title {.section-divider}
+## Title {.title-slide}
+## Title {.content-slide}
+## Title {.definition-slide}
+## Title {.image-slide}
+## Title {.topics-slide}
+## Title {.closing-slide}
+```
+
+::: {.info-box}
+**Tip**: Use `.content-slide` with slug headers for most content slides
+:::
+
+---
+
+## Section Divider Example {.content-slide}
+
+::: {.slug-header}
+Basics
+:::
+
+**Code:**
+```markdown
+# Section Title {.section-divider}
+```
+
+**Result:**
+- Full-width gradient background (navy to blue)
+- Centered white text
+- Large, uppercase heading
+- Perfect for major section breaks
+
+---
+
+## Slug Headers {.content-slide}
+
+::: {.slug-header}
+Demo
+:::
+
+**Code:**
+```markdown
+## Your Slide Title {.content-slide}
+
+::: {.slug-header}
+Section Name
+:::
+
+Content goes here...
+```
+
+**Features:**
+- Black badge in top-right corner
+- White text, rounded corners
+- Shadow effect for depth
+- Use consistently within sections
+
+# List Styles {.section-divider}
+
+## Key Points List {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.key-points}
+- **Bold term**: Description here
+- **Another term**: More description
+- **Third term**: Even more info
+:::
+```
+
+**Result:**
+
+::: {.key-points}
+- **Bold term**: Description here
+- **Another term**: More description
+- **Third term**: Even more info
+:::
+
+---
+
+## Findings List {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.findings-list}
+- First finding with details
+- Second finding with more info
+- **Bold finding** for emphasis
+- Final finding here
+:::
+```
+
+**Result:**
+
+::: {.findings-list}
+- First finding with details
+- Second finding with more info
+- **Bold finding** for emphasis
+- Final finding here
+:::
+
+---
+
+## Detection Methods List {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.detection-methods}
+- **Method 1**: Description of approach
+- **Method 2**: Another technique
+- **Method 3**: Final method
+:::
+```
+
+**Result:**
+
+::: {.detection-methods}
+- **Method 1**: Description of approach
+- **Method 2**: Another technique
+- **Method 3**: Final method
+:::
+
+---
+
+## Measure List {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.measure-list}
+- **Scale Name (ABBR)**: Description
+- **Another Scale (AS)**: Purpose
+- **Third Measure (TM)**: What it does
+:::
+```
+
+**Result:**
+
+::: {.measure-list}
+- **Scale Name (ABBR)**: Description
+- **Another Scale (AS)**: Purpose
+- **Third Measure (TM)**: What it does
+:::
+
+---
+
+## Method Grid {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.method-grid}
+- **Self-report**: Questionnaires, interviews
+- **Behavioral coding**: Manual or automated
+- **Physiological**: Heart rate, EEG
+- **Performance**: Accuracy, reaction time
+:::
+```
+
+**Result:**
+
+::: {.method-grid}
+- **Self-report**: Questionnaires, interviews
+- **Behavioral coding**: Manual or automated
+- **Physiological**: Heart rate, EEG
+- **Performance**: Accuracy, reaction time
+:::
+
+---
+
+## Paradigm List {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.paradigm-list}
+- **Cheating tasks**: Dice/coin manipulation
+- **Mock-crime**: Interview scenarios
+- **Sender-receiver**: Communication games
+:::
+```
+
+**Result:**
+
+::: {.paradigm-list}
+- **Cheating tasks**: Dice/coin manipulation
+- **Mock-crime**: Interview scenarios
+- **Sender-receiver**: Communication games
+:::
+
+---
+
+## Qualitative Methods {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.qualitative-methods}
+- **Thematic analysis**: Content and context
+- **Narrative analysis**: Structure and function
+- **Discourse analysis**: Construction
+:::
+```
+
+**Result:**
+
+::: {.qualitative-methods}
+- **Thematic analysis**: Content and context
+- **Narrative analysis**: Structure and function
+- **Discourse analysis**: Construction
+:::
+
+---
+
+## Cognitive List (Two Columns) {.content-slide}
+
+::: {.slug-header}
+Lists
+:::
+
+**Code:**
+```markdown
+::: {.cognitive-list}
+- **Working Memory**: Capacity during task
+- **Executive Function**: Inhibition control
+- **Theory of Mind**: Perspective-taking
+- **Cognitive Load**: Mental effort
+- **Attention**: Focus and monitoring
+- **Decision Making**: Risk assessment
+:::
+```
+
+**Result:**
+
+::: {.cognitive-list}
+- **Working Memory**: Capacity during task
+- **Executive Function**: Inhibition control
+- **Theory of Mind**: Perspective-taking
+- **Cognitive Load**: Mental effort
+- **Attention**: Focus and monitoring
+- **Decision Making**: Risk assessment
+:::
+
+# Special Boxes {.section-divider}
+
+## Warning Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.warning-box}
+**Important Note**
+
+This is critical information that needs attention.
+Be aware of potential issues or limitations.
+:::
+```
+
+**Result:**
+
+::: {.warning-box}
+**Important Note**
+
+This is critical information that needs attention.
+Be aware of potential issues or limitations.
+:::
+
+---
+
+## Key Insight Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.key-insight}
+This is a highlighted takeaway or important concept
+to remember from this section
+:::
+```
+
+**Result:**
+
+::: {.key-insight}
+This is a highlighted takeaway or important concept
+to remember from this section
+:::
+
+---
+
+## Citation Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.citation-box}
+Author, A. B., & Author, C. D. (2024). 
+Title of important paper. 
+*Journal Name*, 12(3), 123-145.
+:::
+```
+
+**Result:**
+
+::: {.citation-box}
+Author, A. B., & Author, C. D. (2024). 
+Title of important paper. 
+*Journal Name*, 12(3), 123-145.
+:::
+
+---
+
+## Info Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.info-box}
+This is supplementary information that adds
+context but isn't critical to understanding
+:::
+```
+
+**Result:**
+
+::: {.info-box}
+This is supplementary information that adds
+context but isn't critical to understanding
+:::
+
+---
+
+## Highlight Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.highlight-box}
+**Key Concept**
+
+Use this to emphasize important definitions
+or central ideas in your presentation
+:::
+```
+
+**Result:**
+
+::: {.highlight-box}
+**Key Concept**
+
+Use this to emphasize important definitions
+or central ideas in your presentation
+:::
+
+---
+
+## Success Box {.content-slide}
+
+::: {.slug-header}
+Boxes
+:::
+
+**Code:**
+```markdown
+::: {.success-box}
+**Achievement or Best Practice**
+
+Highlight successful outcomes, validated
+findings, or recommended approaches
+:::
+```
+
+**Result:**
+
+::: {.success-box}
+**Achievement or Best Practice**
+
+Highlight successful outcomes, validated
+findings, or recommended approaches
+:::
+
+# Advanced Features {.section-divider}
+
+## Research Focus Box {.content-slide}
+
+::: {.slug-header}
+Advanced
+:::
+
+**Code:**
+```markdown
+::: {.research-focus}
+**Key Research Questions:**
+
+- First question to investigate
+- Second area of inquiry
+- Third research direction
+- Fourth question to explore
+:::
+```
+
+**Result:**
+
+::: {.research-focus}
+**Key Research Questions:**
+
+- First question to investigate
+- Second area of inquiry
+- Third research direction
+- Fourth question to explore
+:::
+
+---
+
+## AI Methods Box {.content-slide}
+
+::: {.slug-header}
+Advanced
+:::
+
+**Code:**
+```markdown
+::: {.ai-methods}
+**Approaches:**
+
+- Text models for linguistic analysis
+- Computer vision for facial dynamics
+- Multimodal signal integration
+:::
+```
+
+**Result:**
+
+::: {.ai-methods}
+**Approaches:**
+
+- Text models for linguistic analysis
+- Computer vision for facial dynamics
+- Multimodal signal integration
+:::
+
+---
+
+## Topic Grid (Numbered) {.content-slide}
+
+::: {.slug-header}
+Advanced
+:::
+
+**Code:**
+```markdown
+::: {.topic-grid}
+1. **First topic** - Brief description
+2. **Second topic** - What it covers
+3. **Third topic** - Key focus area
+4. **Fourth topic** - Research angle
+5. **Fifth topic** - Final option
+:::
+```
+
+**Result:**
+
+::: {.topic-grid}
+1. **First topic** - Brief description
+2. **Second topic** - What it covers
+3. **Third topic** - Key focus area
+4. **Fourth topic** - Research angle
+5. **Fifth topic** - Final option
+:::
+
+---
+
+## Intro Text {.content-slide}
+
+::: {.slug-header}
+Advanced
+:::
+
+**Code:**
+```markdown
+::: {.intro-text}
+@authorYear
+
+**Context or framework** [@citation1; @citation2]
+
+Additional introductory information
+:::
+```
+
+**Result:**
+
+::: {.intro-text}
+@pennebakerPsychology2003
+
+**Contextualised deception** [@newman2003; @hancock2008]
+
+This provides background for the following content
+:::
+
+---
+
+## References Small {.content-slide}
+
+::: {.slug-header}
+Advanced
+:::
+
+**Code:**
+```markdown
+Main content here...
+
+::: {.references-small}
+@author1Year; @author2Year; @author3Year
+:::
+```
+
+**Result:**
+
+Main content discussing various research findings and theoretical perspectives.
+
+::: {.references-small}
+@smith2020; @jones2021; @brown2022; @taylor2023
+:::
+
+# Layout Options {.section-divider}
+
+## Two Column Layout {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+:::: {.columns}
+::: {.column width="50%"}
+**Left Column**
+
+- Point one
+- Point two
+- Point three
+:::
+
+::: {.column width="50%"}
+**Right Column**
+
+- Different info
+- More details
+- Additional data
+:::
+::::
+```
+
+---
+
+## Two Column Example {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Result:**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Left Column**
+
+- Point one
+- Point two
+- Point three
+:::
+
+::: {.column width="50%"}
+**Right Column**
+
+- Different info
+- More details
+- Additional data
+:::
+::::
+
+---
+
+## Custom Column Widths {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+:::: {.columns}
+::: {.column width="40%"}
+Smaller column
+:::
+
+::: {.column width="60%"}
+Larger column with more content
+:::
+::::
+```
+
+**Result:**
+
+:::: {.columns}
+::: {.column width="40%"}
+Smaller column
+:::
+
+::: {.column width="60%"}
+Larger column with more content
+:::
+::::
+
+---
+
+## Three Column Layout {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+:::: {.columns}
+::: {.column width="33%"}
+Column 1
+:::
+
+::: {.column width="33%"}
+Column 2
+:::
+
+::: {.column width="33%"}
+Column 3
+:::
+::::
+```
+
+---
+
+## Grid 2x2 {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+::: {.grid-2x2}
+<div>Grid item 1</div>
+<div>Grid item 2</div>
+<div>Grid item 3</div>
+<div>Grid item 4</div>
+:::
+```
+
+---
+
+## Grid 3x3 {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+::: {.grid-3x3}
+<div>Item 1</div>
+<div>Item 2</div>
+<div>Item 3</div>
+<div>Item 4</div>
+<div>Item 5</div>
+<div>Item 6</div>
+:::
+```
+
+---
+
+## Two Column Balanced {.content-slide}
+
+::: {.slug-header}
+Layouts
+:::
+
+**Code:**
+```markdown
+::: {.two-col-balanced}
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
+- Item 6
+:::
+```
+
+**Note:** Automatically balances content across two columns
+
+# Utility Classes {.section-divider}
+
+## Badges {.content-slide}
+
+::: {.slug-header}
+Utilities
+:::
+
+**Code:**
+```markdown
+[Default]{.badge}
+[Primary]{.badge .badge-primary}
+[Secondary]{.badge .badge-secondary}
+[Success]{.badge .badge-success}
+[Warning]{.badge .badge-warning}
+```
+
+**Result:**
+
+[Default]{.badge} [Primary]{.badge .badge-primary} [Secondary]{.badge .badge-secondary} [Success]{.badge .badge-success} [Warning]{.badge .badge-warning}
+
+::: {.info-box}
+Use badges for tags, labels, status indicators, or categories
+:::
+
+---
+
+## Text Sizing {.content-slide}
+
+::: {.slug-header}
+Utilities
+:::
+
+**Code:**
+```markdown
+## Regular Size Title {.content-slide}
+
+## Smaller Size Title {.content-slide .smaller}
+```
+
+**Note:** `.smaller` class reduces font size to 85% - useful for content-heavy slides
+
+---
+
+## Image Centering {.content-slide}
+
+::: {.slug-header}
+Utilities
+:::
+
+**Code:**
+```markdown
+![](image.png){.center width="600px"}
+```
+
+**Alternative:**
+```markdown
+![](image.png){.center width="80%"}
+```
+
+::: {.info-box}
+The `.center` class centers the image and adds professional styling
+:::
+
+# Complete Examples {.section-divider}
+
+## Example 1: Research Methods {.content-slide}
+
+::: {.slug-header}
+Methods
+:::
+
+### Data Collection Approaches
+
+::: {.method-grid}
+- **Self-report**: Questionnaires, interviews, diaries
+- **Behavioral coding**: Video analysis, interaction coding
+- **Physiological**: Heart rate, skin conductance, fMRI
+- **Performance**: Accuracy, reaction time, error rates
+- **Linguistic**: LIWC, sentiment analysis, NLP
+- **Machine learning**: Classifiers on multimodal data
+:::
+
+::: {.warning-box}
+**Methodological Consideration**
+
+Always consider the ecological validity and ethical implications of your chosen methods
+:::
+
+---
+
+## Example 2: Literature Review {.content-slide}
+
+::: {.slug-header}
+Literature
+:::
+
+### Key Theoretical Perspectives
+
+::: {.key-points}
+- **Cognitive Load Theory**: Explains information processing limitations
+- **Dual Process Theory**: Distinguishes automatic vs. controlled processes
+- **Social Exchange Theory**: Analyzes cost-benefit in relationships
+- **Attribution Theory**: How we explain behavior and events
+:::
+
+::: {.references-small}
+@kahneman2011; @sweller1988; @heider1958; @kelley1967
+:::
+
+---
+
+## Example 3: Results Overview {.content-slide}
+
+::: {.slug-header}
+Results
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+**Quantitative Findings:**
+
+::: {.findings-list}
+- Significant main effect of condition (p < .001)
+- No interaction between variables
+- Medium effect size (d = 0.52)
+:::
+:::
+
+::: {.column width="50%"}
+**Qualitative Themes:**
+
+::: {.qualitative-methods}
+- **Trust dynamics**: Interpersonal relationships
+- **Emotional responses**: Guilt and anxiety
+- **Strategic adaptation**: Learning over time
+:::
+:::
+::::
+
+---
+
+## Example 4: Discussion Points {.content-slide}
+
+::: {.slug-header}
+Discussion
+:::
+
+### Main Takeaways
+
+::: {.key-insight}
+The findings suggest a complex interplay between cognitive and emotional factors in decision-making processes
+:::
+
+::: {.highlight-box}
+**Implications for Practice**
+
+These results have direct applications for training programs and intervention design
+:::
+
+::: {.warning-box}
+**Limitations**
+
+Sample size limited generalizability; further replication needed
+:::
+
+---
+
+## Example 5: Student Projects {.topics-slide}
+
+::: {.topic-grid}
+1. **Deception detection using AI** - Compare machine vs human accuracy
+2. **Personality and lying behavior** - Dark triad correlates
+3. **Cross-cultural deception** - Cultural differences in lying
+4. **Micro-expressions analysis** - Automated facial coding
+5. **Linguistic markers of truth** - LIWC-based classification
+6. **Training effectiveness** - Can we improve detection skills?
+:::
+
+# Tips & Best Practices {.section-divider}
+
+## General Guidelines {.content-slide}
+
+::: {.slug-header}
+Best Practices
+:::
+
+### Do's ✓
+
+::: {.success-box}
+**Recommended Practices**
+
+- Use slug headers consistently within sections
+- Match box colors to content type (warning, success, info)
+- Keep lists concise (5-7 items max)
+- Use `.smaller` for dense content
+- Include references at bottom of slides
+:::
+
+---
+
+## What to Avoid {.content-slide}
+
+::: {.slug-header}
+Best Practices
+:::
+
+### Don'ts ✗
+
+::: {.warning-box}
+**Things to Avoid**
+
+- Don't mix too many box types on one slide
+- Don't use section dividers for regular content
+- Don't forget to add `.content-slide` with slug headers
+- Don't overcrowd slides - use multiple slides instead
+- Don't use slug headers on title or closing slides
+:::
+
+---
+
+## Consistency Tips {.content-slide}
+
+::: {.slug-header}
+Best Practices
+:::
+
+::: {.highlight-box}
+**Maintain Visual Consistency**
+
+1. Use the same slug header text for all slides in a section
+2. Choose one list style per content type and stick with it
+3. Reserve colored boxes for truly important information
+4. Use columns when comparing two distinct concepts
+5. Keep color coding meaningful throughout
+:::
+
+---
+
+## Accessibility {.content-slide}
+
+::: {.slug-header}
+Best Practices
+:::
+
+::: {.info-box}
+**Built-in Accessibility Features**
+
+- High contrast color schemes
+- Reduced motion support for animations
+- Keyboard navigation friendly
+- Screen reader compatible structure
+- Clear visual hierarchy
+:::
+
+# Quick Reference Table {.section-divider}
+
+## Class Reference {.content-slide .smaller}
+
+::: {.slug-header}
+Reference
+:::
+
+| Class | Purpose | Use Case |
+|-------|---------|----------|
+| `.section-divider` | Major section breaks | Chapter/topic transitions |
+| `.content-slide` | Regular content | Most slides with slug headers |
+| `.slug-header` | Section indicator | Top-right badge |
+| `.key-points` | Important lists | Core concepts |
+| `.findings-list` | Research results | Empirical findings |
+| `.detection-methods` | Methods list | Approaches/techniques |
+| `.warning-box` | Cautions | Limitations/concerns |
+| `.key-insight` | Takeaways | Main points |
+| `.topic-grid` | Numbered topics | Project/assignment lists |
+
+---
+
+## Color Guide {.content-slide}
+
+::: {.slug-header}
+Reference
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+**Primary Colors:**
+
+- Navy: Primary/headings
+- Blue: Accents/highlights  
+- Light blue: Backgrounds
+- Green: Success/positive
+- Red: Warning/caution
+:::
+
+::: {.column width="50%"}
+**When to Use:**
+
+- **Blue boxes**: General info
+- **Green boxes**: Best practices
+- **Red boxes**: Warnings/limits
+- **Gradient boxes**: Special focus
+- **White boxes**: Neutral content
+:::
+::::
+
+# Questions? {.closing-slide}
+
+::: {.closing-text}
+**Start creating beautiful slides!**
+
+Reference this deck anytime you need a reminder
+:::

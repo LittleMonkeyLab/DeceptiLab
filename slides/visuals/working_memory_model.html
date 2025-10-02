@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .wm-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .model-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        .memory-box {
+            flex: 1;
+            background: white;
+            border: 3px solid;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .truth-teller-box {
+            border-color: #28a745;
+        }
+        .liar-box {
+            border-color: #dc3545;
+        }
+        .box-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+        }
+        .truth-teller-title {
+            background: #28a745;
+        }
+        .liar-title {
+            background: #dc3545;
+        }
+        .memory-source {
+            background: #f8f9fa;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .source-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        .source-description {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #6c757d;
+        }
+        .memory-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .arrow-icon {
+            width: 0;
+            height: 0;
+            border-left: 20px solid #6c757d;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+        }
+        .arrow-label {
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #6c757d;
+        }
+        .central-concept {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+        }
+        .concept-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        .concept-description {
+            font-size: 14px;
+            color: #856404;
+        }
+        .predictions {
+            background: #e7f3ff;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .predictions-title {
+            font-weight: bold;
+            color: #004085;
+            margin-bottom: 10px;
+        }
+        .prediction-item {
+            font-size: 14px;
+            margin: 8px 0;
+            color: #004085;
+        }
+        .citation {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="wm-container">
+        <div class="chart-title">Working Memory Model: Truth vs Deception</div>
+        
+        <div class="model-area">
+            <div class="memory-box truth-teller-box">
+                <div class="box-title truth-teller-title">TRUTH-TELLERS</div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Primary Source</div>
+                    <div class="source-description">Specific experiences & memories</div>
+                </div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Content Characteristics</div>
+                    <div class="source-description">Schema-inconsistent details, irrelevant information</div>
+                </div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Memory Decay</div>
+                    <div class="source-description">Recall becomes less detailed over time</div>
+                </div>
+            </div>
+            
+            <div class="memory-box liar-box">
+                <div class="box-title liar-title">LIARS</div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Primary Source</div>
+                    <div class="source-description">General schemas & templates</div>
+                </div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Content Characteristics</div>
+                    <div class="source-description">Schema-consistent details, coherent narrative</div>
+                </div>
+                
+                <div class="memory-source">
+                    <div class="source-title">Consistency</div>
+                    <div class="source-description">Stories remain consistent over time</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="central-concept">
+            <div class="concept-title">Deception = Memory Recombination</div>
+            <div class="concept-description">
+                Not pure invention, but recombining existing memories and schemas<br>
+                Based on Hume's (1748/2007) conceptualization
+            </div>
+        </div>
+        
+        <div class="predictions">
+            <div class="predictions-title">Key Predictions:</div>
+            <div class="prediction-item">• Liars → more schema-consistent details</div>
+            <div class="prediction-item">• Truth-tellers → more schema-inconsistent/irrelevant details</div>
+            <div class="prediction-item">• Memory decay affects truth-tellers' recall over time</div>
+        </div>
+        
+        <div class="citation">
+            Baddeley (2007); Sporer (2016)
+        </div>
+    </div>
+</body>
+</html>

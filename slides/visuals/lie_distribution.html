@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .distribution-container {
+            font-family: 'Arial', sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .pie-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .pie-chart {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(
+                #ff6b6b 0deg 18deg,
+                #4ecdc4 18deg 360deg
+            );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .pie-center {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            text-align: center;
+        }
+        .legend {
+            margin-left: 30px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+        .prolific-color {
+            background: #ff6b6b;
+        }
+        .others-color {
+            background: #4ecdc4;
+        }
+        .statistics {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .stat-highlight {
+            font-weight: bold;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="distribution-container">
+        <div class="chart-title">Distribution of Lying Behavior</div>
+        
+        <div class="pie-container">
+            <div class="pie-chart">
+                <div class="pie-center">Total Lies</div>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color prolific-color"></div>
+                    <span>Prolific Liars (5%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color others-color"></div>
+                    <span>Everyone Else (95%)</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="statistics">
+            <p>Prolific liars tell <span class="stat-highlight">~50% of all lies</span></p>
+            <p>Most people tell <span class="stat-highlight">few or no lies</span></p>
+        </div>
+    </div>
+</body>
+</html>
