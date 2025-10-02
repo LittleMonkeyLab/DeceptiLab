@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   
-bibliography: assets/references.bib
+bibliography: slides/DeceptiLabSlidesV4.bib
 csl: apa.csl
 
 website:
@@ -13,23 +13,10 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: slides/slides.qmd
+      - href: slides/DeceptiLabSlides.qmd
         text: Slides
         target: _blank
-      - text: Chapters
-        menu:
-          - href: chapters/key-concepts.qmd
-            text: Key Concepts
-          - href: chapters/why-timely.qmd
-            text: Why It's Timely
-          - href: chapters/research-highlights.qmd
-            text: Research Highlights
-          - href: chapters/detection.qmd
-            text: Detecting Deception
-          - href: chapters/who-lies.qmd
-            text: Who Lies & Why
-          - href: chapters/methods-subprojects.qmd
-            text: Sub-Projects & Methods
+
   sidebar: 
     background: primary
     style: floating
@@ -37,27 +24,10 @@ website:
     contents: 
       - href: index.qmd
         text: Home
-      - href: slides/slides.qmd
+      - href: slides/DeceptiLabSlides.qmd
         text: Slides
         target: _blank
-      - section: Chapters
-        contents: 
-          - href: chapters/key-concepts.qmd
-            text: Key Concepts
-          - href: chapters/why-timely.qmd
-            text: Why It's Timely
-          - href: chapters/research-highlights.qmd
-            text: Research Highlights
-          - href: chapters/detection.qmd
-            text: Detecting Deception
-          - href: chapters/who-lies.qmd
-            text: Who Lies & Why
-          - href: chapters/methods-subprojects.qmd
-            text: Sub-Projects & Methods
-      - section: Literature
-        contents: 
-          - href: literature/index.qmd
-            text: Annotated Bibliography
+      
 
   page-footer:
     left: |
