@@ -1,5 +1,5 @@
 ---
-title: "Deception Lab 3"
+title: "Deception Lab - Kick-off!"
 format:
   revealjs:
     theme: [default, lab-custom.scss]
