@@ -2,7 +2,7 @@
 format:
   revealjs:
     theme: [default, lab-custom.scss]
-    footer:
+    page-footer:
       left: "Dr. Gordon Wright — A LittleMonkeyLab Caper"
       right: "❤️ Quarto + RevealJS, 2025"
     scrollable: true
