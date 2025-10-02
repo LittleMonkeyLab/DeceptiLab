@@ -5,7 +5,7 @@ format:
     toc: true
 ---
 
-Welcome. This site introduces core ideas and evidence in deception research and provides a durable reference for the course.
+Welcome. Here are the slides for week 1 Research Lab - It's gonna be a blast! 
 
 ![](images/vrij_deceit.png) [Aldert Vrij's Detecting lies and deception pitfalls and opportunities](https://librarysearch.gold.ac.uk/permalink/f/s9ouig/44GOL_SYMPHONY246208)
 
