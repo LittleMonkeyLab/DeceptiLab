@@ -106,7 +106,7 @@ Meso-level accounts examine the interaction between liar and recipient (Vrij et 
 
 **1. Moral Psychology Account** (Bond & DePaulo, 2006)
 
-People judge others' lies as immoral but excuse their own. Distancing from moral responsibility enables self-serving evaluations (Shu et al., 2011; Shalvi et al., 2015).
+People judge others' lies as immoral but excuse their own - The "Deception Double-Standard". Distancing from moral responsibility enables self-serving evaluations (Shu et al., 2011; Shalvi et al., 2015).
 
 **2. Self-Presentational Theory** (DePaulo, 1992; Goffman, 1959)
 
@@ -182,8 +182,10 @@ Explanations:
 - Recent developments: active elicitation techniques show promise (Nahari, 2019; Vrij & Granhag, 2012)
 
 ------------------------------------------------------------------------
+https://login.learningonscreen.ac.uk/wayfless.php?entityID=https%3A%2F%2Fidp.goldsmiths.ac.uk%2Fidp%2Fshibboleth&target=https%3A%2F%2Flearningonscreen.ac.uk%2Fondemand%2Findex.php%2Fprog%2F11ED256E%3Fbcast%3D127465838
 
 ![](../images/Aweekwithoutlying.png){.center width="70%"}
+
 
 ------------------------------------------------------------------------
 
@@ -496,7 +498,7 @@ Example: Survey identifies prolific liars → in-depth interviews with high scor
 
 QUAL → QUAN: Use qualitative insights to develop measures or hypotheses
 
-Example: Interviews reveal lying strategies → create questionnaire to measure strategy use
+Example: Interviews reveal lying strategies → create tool to measure strategy use
 :::
 
 ::: {.column width="50%"}
@@ -512,7 +514,7 @@ Example: Experiment with post-task interviews about strategy
 :::
 ::::::
 
-**Integration example:** 7-day diary study (QUAL thematic analysis) + Big Five personality (QUAN correlations) + semi-structured interviews about most significant lie (QUAL narrative analysis)
+**More Complex Integration example:** 7-day diary study (QUAL thematic analysis) + Big Five personality (QUAN correlations) + semi-structured interviews about most significant lie (QUAL narrative analysis)
 
 ------------------------------------------------------------------------
 
@@ -526,6 +528,7 @@ Methods
 ::: {.column width="50%"}
 **Approaches**
 
+- Wizard of Oz?
 - Text models score linguistic cues (LIWC, NLP)
 - Computer vision for facial dynamics
 - Multimodal integration of signals
